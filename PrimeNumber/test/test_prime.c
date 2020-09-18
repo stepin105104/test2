@@ -10,22 +10,22 @@ void test_prime_number(void)
 {
 
 
-  TEST_ASSERT_EQUAL(true, prime_number(2));
+  TEST_ASSERT_EQUAL(true, prime_number(number));
 
-  TEST_ASSERT_EQUAL(true, prime_number(13));
+  TEST_ASSERT_EQUAL(true, prime_number(number));
 
 }
 void test_not_prime_number(void)
 {
 
 
-  TEST_ASSERT_EQUAL(false, prime_number(1));
+  TEST_ASSERT_EQUAL(false, prime_number(number));
 
-  TEST_ASSERT_EQUAL(false, prime_number(4));
+  TEST_ASSERT_EQUAL(false, prime_number(number));
 
 }
 
-int test_main(int num)
+int test_main(int num,int number)
 {
 /* Initiate the Unity Test Framework */
   UNITY_BEGIN();
