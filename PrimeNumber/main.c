@@ -5,9 +5,11 @@
 
 int main()
 {
-    int a;
+    int a,number;
     printf("enter the number\n");
     scanf("%d",&a);
-    test_main(a);
+    printf("enter the number to check\n");
+    scanf("%d",&number);
+    test_main(a,number);
     return 0;
 }
